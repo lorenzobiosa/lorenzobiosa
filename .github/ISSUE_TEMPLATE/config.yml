@@ -1,0 +1,9 @@
+# .github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/lorenzobiosa
+    about: Connect for professional inquiries or collaborations.
+  - name: Sponsor (GitHub Sponsors)
+    url: https://github.com/sponsors/lorenzobiosa
+    about: Support the work behind this profile and related projects.
