@@ -1,0 +1,58 @@
+name: "🐞 Bug Report"
+description: "Report a broken link or content issue"
+labels:
+  - content
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please provide as much detail as possible.
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "❗ Issue"
+      description: "Describe the problem (e.g., broken link, formatting, image not loading)."
+      placeholder: "Explain what is wrong..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "🎯 Expected"
+      description: "What did you expect to see?"
+      placeholder: "Describe the expected behavior or content..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "🛑 Actual"
+      description: "What did you see instead?"
+      placeholder: "Describe what actually happened..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: "📍 Where"
+      description: "Indicate where the issue occurs."
+      placeholder: |
+        - Section: (e.g., About / Featured Projects / Sponsorship)
+        - Link (if applicable):
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "📝 Additional context"
+      description: "Screenshots or notes (optional)."
+      placeholder: "Add any extra context here..."
+    validations:
+      required: false
