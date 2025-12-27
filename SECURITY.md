@@ -13,8 +13,14 @@ If you identify a **security**, **privacy**, or **compliance-related concern** (
 
 - Please **do not open a public issue**
 - Open a **Private Issue** instead, or contact me directly via GitHub
+- You may also report the issue via email at **dev@biosa-labs.com**
 
-Responsible disclosure is appreciated and helps keep this repository clean and trustworthy.
+You are encouraged to use **encrypted communication**.  
+My **PGP public key** is available here:
+
+- 🔑 **PGP Key**: [`keys/gpg-publickey.asc`](./keys/gpg-publickey.asc)
+
+Responsible disclosure is appreciated and helps keep this repository clean, secure, and trustworthy.
 
 ---
 

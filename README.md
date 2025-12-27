@@ -129,9 +129,10 @@ My focus is on translating **architectural complexity** into **resilient, secure
 ## 📊 GitHub Stats
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lorenzobiosa&show_icons=true&theme=dark&hide_title=true)
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=lorenzobiosa&show_icons=true&theme=dark&hide_title=true"
+    alt="GitHub Stats"
+  />
 </div>
 
 ---

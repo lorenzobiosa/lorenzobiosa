@@ -1,0 +1,48 @@
+name: "✨ Feature Request"
+description: "Suggest an improvement for the profile README"
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement!
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "📝 Summary"
+      description: "Describe the enhancement you propose."
+      placeholder: "Briefly explain the feature or improvement..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: "💡 Rationale"
+      description: "Why is this useful? What value does it add?"
+      placeholder: "Explain the motivation and benefits..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "📌 Proposal"
+      description: "Describe the proposed wording, section, or implementation details."
+      placeholder: |
+        - Proposed wording or section
+        - Links or references (if any)
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "🖼️ Additional context"
+      description: "Optional screenshots, links, or examples."
+      placeholder: "Add any extra context here..."
+    validations:
+      required: false
